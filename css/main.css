@@ -129,10 +129,6 @@ ul li a:visited {
   text-decoration: none;
   color: #222222;
 }
-ul li a:hover,
-ul li a:visited:hover {
-  opacity: .65;
-}
 ul#social {
   margin: 2em auto 0;
 }
