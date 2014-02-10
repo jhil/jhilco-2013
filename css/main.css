@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:700|PT+Serif);
+* {
+  margin: 0;
+  padding: 0;
+}
 html,
 button,
 input,
@@ -45,8 +49,8 @@ p {
 }
 ul {
   margin: 2% auto;
-  width: 38.750em;
-  max-width: 90%;
+  width: 90%;
+  max-width: 38.750em;
   text-align: center;
   list-style: none outside none;
   padding: 0;
@@ -72,6 +76,12 @@ ul li a:visited:hover {
 }
 ul#social {
   margin: 2em auto 0;
+}
+ul#social li a {
+  padding: 1em;
+}
+ul#social li a img {
+  display: block;
 }
 footer {
   margin-top: 4em;
