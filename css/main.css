@@ -17,6 +17,11 @@ html {
   line-height: 2;
   text-align: center;
 }
+a,
+a:visited {
+  text-decoration: none;
+  color: #222222;
+}
 .ribbon {
   height: 2em;
   background: #ffdd33;
@@ -82,6 +87,7 @@ ul#social li a {
 }
 ul#social li a img {
   display: block;
+  width: 24px;
 }
 footer {
   margin-top: 4em;

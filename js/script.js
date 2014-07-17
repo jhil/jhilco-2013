@@ -12,17 +12,17 @@ $(document).ready(function () {
 		}
 		);
 
-// jQuery hover swap text @ http://perishablepress.com/jquery-hover-swap-text/
 function xycss_swap_text(){
 	$('a').hover(function(){
 		var description = $(this).attr('description');
 		var text  = $(this).text();
+		console.log(text);
 		$("#stuff h1").text(description).attr('rel', text).removeAttr('description').wrapInner('<span />');
 
 	},function(){
 		var description = $(this).text();
 		var text  = $(this).attr('rel');
-		$("#stuff h1").text(text).attr('hello', hello);
+		$("#stuff h1").text('a place for my stuff');
 	});
 }
 $(document).ready(function(){
